@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+char str[100];
+int I;
+int lower =0,special=0;
+printf("please enter the string\n");
+gets( str) ;
+for(I=0; str[I]!='\0' ; I++){
+//check for lower case
+}
+else if(str[I]>='a' && str[I]<='z') 
+{
+lower++;
+else{
+special++;
+}
+}
+printf("\n lower case letters :%d",lower);
+
+printf("\n special characters : %d", special) ;
+getch();
+return 0;
+}
