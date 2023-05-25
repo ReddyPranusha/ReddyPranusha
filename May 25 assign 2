@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+chat str[40];
+printf("\n enter a string to be reversed");
+scanf("%s", str) ;
+//use strrev() function to reverse a string
+printf("\n after the reverse of a string%s",strrev(str));
+return 0;
+}
+output:
+enter a string to be reversed: ambulance
+after the reverse of a string: ecnalubma
